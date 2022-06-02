@@ -3,6 +3,9 @@ pipeline:
    agent: 
      any:
    stages:
+   - stage: "Checkout"
+     steps:
+        - git 'https://github.com/DsquareZone/jenkins-react-app.git'      
    - stage: "Build ReactJS App"  
      steps: 
         - sh "sudo npm install"
