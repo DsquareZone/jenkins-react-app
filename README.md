@@ -33,3 +33,4 @@ sudo apt-get install -y nodejs
 ```
 echo "jenkins ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 ```
+## Code builded successfully
